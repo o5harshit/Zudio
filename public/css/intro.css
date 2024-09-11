@@ -1,0 +1,71 @@
+*{
+    margin : 0px;
+    padding:0px;
+}
+
+body{
+    height: 100vh;
+    background-color: black !important;
+}
+
+#nav{
+    background-color: black !important;
+    color:white !important;
+    border-bottom: 1px solid white;
+    position: fixed !important;
+    width:100% !important;
+}
+
+.container-fluid a{
+    color:white !important;
+    font-family: "Playfair Display", serif;
+}
+
+.toggle{
+    filter: invert(1);
+}
+
+.cursor{
+    position: fixed;
+    width : 40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.1s;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+
+#nav:hover ~ .cursor{
+    transform: scale(3) !important;
+    /* background-color:transparent; */
+}
+
+
+.main{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+}
+
+.form-control{
+    max-width: 80%;
+    min-height: 60%;
+    background-color: black !important;
+    color:azure !important;
+    font-family: "Playfair Display", serif !important;
+}
+
+form{
+    padding:2rem;
+}
+
+.form-text{
+    color:azure !important;
+    font-family: "Playfair Display", serif !important;
+}
+
+

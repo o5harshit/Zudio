@@ -1,0 +1,12 @@
+#nav{
+    background-color: black !important;
+    color:white !important;
+    border-bottom: 1px solid black;
+}
+
+.container-fluid a{
+    color:white !important;
+    font-family: "Playfair Display", serif;
+}
+
+
